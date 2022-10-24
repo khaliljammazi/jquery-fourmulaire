@@ -1,0 +1,159 @@
+body{
+    background: #f3eee4;
+   }
+   .container{
+     padding:100px;
+   }
+   #contact{
+     max-width:400px;
+     padding:20px;
+     background-color:#ffffff;
+     margin:auto;
+   }
+   ul{
+     list-style:none;
+     padding:0;
+     margin:0
+   }
+   input{
+     border:1px solid #000000;
+     border-radius:8px;
+     padding:10px;
+     width:100%;
+   }
+
+   .error {
+     color: #ff0000;
+   }
+   .submit{
+     margin-top:30px;
+     width:150px;
+     margin:30px 0;
+     background-color:black;
+     color:white;
+     background: #24C6DC;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+   .mandatory{
+       font-size:1.3em;
+       margin: 50px 0;
+       font-weight: normal;
+     text-align:center;
+   }
+   .iserror{
+     border:1px solid #ff0000;
+   }
+    .isvalid{
+     border:1px solid #2adc24;
+    }
+    .card-carousel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    
+    .card-carousel .my-card {
+      height: 20rem;
+      width: 12rem;
+      position: relative;
+      z-index: 1;
+      -webkit-transform: scale(0.6) translateY(-2rem);
+      transform: scale(0.6) translateY(-2rem);
+      opacity: 0;
+      cursor: pointer;
+      pointer-events: none;
+      background: #2e5266;
+      background: linear-gradient(to top, #2e5266, #6e8898);
+      transition: 1s;
+    }
+    
+    .card-carousel .my-card:after {
+      content: '';
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      border-radius: 100%;
+      background-color: rgba(0,0,0,0.3);
+      bottom: -5rem;
+      -webkit-filter: blur(4px);
+      filter: blur(4px);
+    }
+    
+    .card-carousel .my-card.active {
+      z-index: 3;
+      -webkit-transform: scale(1) translateY(0) translateX(0);
+      transform: scale(1) translateY(0) translateX(0);
+      opacity: 1;
+      pointer-events: auto;
+      transition: 1s;
+    }
+    
+    .card-carousel .my-card.prev, .card-carousel .my-card.next {
+      z-index: 2;
+      -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+      transform: scale(0.8) translateY(-1rem) translateX(0);
+      opacity: 0.6;
+      pointer-events: auto;
+      transition: 1s;
+    }
+    .card-carousel .my-card:nth-child(0):before {
+      content: '0';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 3rem;
+      font-weight: 300;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(1):before {
+      content: '1';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 3rem;
+      font-weight: 300;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(2):before {
+      content: '2';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 3rem;
+      font-weight: 300;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(3):before {
+      content: '3';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 3rem;
+      font-weight: 300;
+      color: #fff;
+    }
+    
+    .card-carousel .my-card:nth-child(4):before {
+      content: '4';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 3rem;
+      font-weight: 300;
+      color: #fff;
+    }

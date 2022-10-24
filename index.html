@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" 
+        crossorigin="anonymous">
+</script> 
+
+  </head>
+  <body>
+
+    <div class="container">
+      <form name="contact" id="contact" autocomplete>
+        <label for="">name</label>
+        <input type="text" name="name" id="name" />
+        <br />
+        <label for="">last name</label>
+        <input type="text" name="last_name" id="lname" /> <br />
+        <label for="">age</label>
+        <input type="date" name="age" id="datepicker" /> <br />
+        <label for="">phone</label>
+        <input type="tel" name="tel" id="tel" /> <br />
+        <label for="">email</label>
+        <input type="text" name="email" id="email" /> <br />
+        <label for="">password</label>
+        <input type="text" name="password" id="password" /> <br />
+
+        <select name="technologie" class="tech">
+          <option value="">select a one</option>
+
+        </select>
+        <br />
+        <textarea name="note" id="info" cols="30" rows="10" ></textarea>
+        <br />
+
+        <label for=""> choose :</label> <br />
+        <input type="radio" name="experience" value="Yes" /> Yes
+        <input type="radio" name="experience" value="No" /> No
+<input type="text" name="experience" id="Yes" value="yes" hidden/> 
+        <br />
+
+
+        <input type="submit" id="btn_submit" value="sublmit" />
+      </form>
+
+      <div class="card-carousel">
+        <div class="my-card"></div>
+        <div class="my-card"></div>
+        <div class="my-card"></div>
+        <div class="my-card"></div>
+        <div class="my-card"></div>
+  
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
